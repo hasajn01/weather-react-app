@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  width: 100%;
+  max-width: 900px; /* Максимальная ширина формы */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative; /* Для позиционирования кнопки */
+}
+
+.input {
+  width: 764px;
+  height: 74px;
+  background: none;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.input::placeholder {
+  color: aliceblue;
+}
+
+.button {
+  width: 84px;
+  height: 84px;
+  border: none;
+  background-image: url("../../../public/assets/img/search.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: -35px; /* Размещение кнопки справа */
+}

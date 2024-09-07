@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  min-height: 100vh;
+  background: url("../../../public/assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.day {
+  width: 760px;
+  height: 312px;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+
+  background-image: url("../../../public/assets/img/day.png");
+
+  cursor: pointer;
+}
+
+.night {
+  background-image: url("../../../public/assets/img/night.png");
+}
+
+.block-1 {
+  padding: 39px 0 39px 71px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-align: left;
+}
+
+.block-2 {
+  padding: 25px 71px 39px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.block-1-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.city-name {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.city-region {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.city-last__updated {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.city-icon {
+  width: 83px;
+  height: 81px;
+}
+
+.city-temp__c {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.city-temp__f {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.not-found {
+  font-size: 50px;
+  color: red;
+}
